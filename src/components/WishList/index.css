@@ -1,0 +1,30 @@
+.wishlist-container {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+.empty-wishlist {
+  color: transparent;
+  object-fit: contain;
+  width: auto;
+}
+.empty-para {
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+}
+.common-button {
+  color: white;
+  background-color: #7e59e7;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 6px 0px;
+  width: 95%;
+}
+.wishlist-bottom {
+  margin-top: 100px;
+}
